@@ -12,6 +12,13 @@ header{
     padding: 2em;
 
 }
+.icons{
+    margin-left: 2em;
+}
+.icons img{
+    margin-right:.5em ;
+   
+}
 
 .logo{
     color: aliceblue;
@@ -34,6 +41,7 @@ h1 span{
     display: flex;
     justify-content: end;
     color: aliceblue;
+  
 }
 
 header hr{
@@ -193,8 +201,42 @@ aside .buttons{
     margin-bottom: 2em;
 }
 
-.all-logos{
-    height: 15em;
-    background-color: bisque;
+#sponsors-logo{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3em;
+   
 }
- 
+
+#sponsors-logo h2{
+    text-align: center;
+    margin: 2em 0em;
+     font-weight: 200;
+
+}
+
+.all-logos{
+     display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap:1em;
+}
+
+.all-logos img{
+    height: 5em;
+   
+}
+ footer{
+   
+     background-color: #000000;
+ }
+
+.footer-contain{
+    height: 30em;
+   margin: auto;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between ;
+    padding: 3em;
+    width: 80%;
+}
