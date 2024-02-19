@@ -79,6 +79,9 @@ header hr{
     margin: auto;
     margin-top: -5em;
 }
+.banner-Img img{
+    width: 100%;
+}
 
 .popUp-text{
     height: 7em;
